@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Ecoreum
+Comment=Ecoreum P2P Cryptocurrency
+Comment[fr]=Ecoreum, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Ecoreum, eşten eşe kriptografik sanal para birimi
+Exec=ecoreumcoin-qt %u
+Terminal=false
+Type=Application
+Icon=ecoreumcoin128
+MimeType=x-scheme-handler/ecoreumcoin;
+Categories=Office;Finance;

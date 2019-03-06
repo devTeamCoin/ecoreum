@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/ecoreumcoin_bg.qm</file>
+        <file alias="ca">locale/ecoreumcoin_ca.qm</file>
+        <file alias="cs">locale/ecoreumcoin_cs.qm</file>
+        <file alias="da">locale/ecoreumcoin_da.qm</file>
+        <file alias="de">locale/ecoreumcoin_de.qm</file>
+        <file alias="en">locale/ecoreumcoin_en.qm</file>
+        <file alias="en_US">locale/ecoreumcoin_en_US.qm</file>
+        <file alias="es">locale/ecoreumcoin_es.qm</file>
+        <file alias="fi">locale/ecoreumcoin_fi.qm</file>
+        <file alias="fr_FR">locale/ecoreumcoin_fr_FR.qm</file>
+        <file alias="hr">locale/ecoreumcoin_hr.qm</file>
+        <file alias="it">locale/ecoreumcoin_it.qm</file>
+        <file alias="ja">locale/ecoreumcoin_ja.qm</file>
+        <file alias="ko_KR">locale/ecoreumcoin_ko_KR.qm</file>
+        <file alias="nl">locale/ecoreumcoin_nl.qm</file>
+        <file alias="pl">locale/ecoreumcoin_pl.qm</file>
+        <file alias="pt">locale/ecoreumcoin_pt.qm</file>
+        <file alias="pt_BR">locale/ecoreumcoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/ecoreumcoin_ro_RO.qm</file>
+        <file alias="ru">locale/ecoreumcoin_ru.qm</file>
+        <file alias="sk">locale/ecoreumcoin_sk.qm</file>
+        <file alias="sv">locale/ecoreumcoin_sv.qm</file>
+        <file alias="tr">locale/ecoreumcoin_tr.qm</file>
+        <file alias="uk">locale/ecoreumcoin_uk.qm</file>
+        <file alias="zh_CN">locale/ecoreumcoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/ecoreumcoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

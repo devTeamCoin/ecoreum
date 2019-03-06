@@ -1,0 +1,26 @@
+[Unit]
+Description=ECRM's distributed currency daemon
+After=network.target
+
+[Service]
+User=ecoreumcoin
+Group=ecoreumcoin
+
+Type=forking
+PIDFile=/var/lib/ecoreumcoind/ecoreumcoind.pid
+
+ExecStart=/usr/bin/ecoreumcoind -daemon -pid=/var/lib/ecoreumcoind/ecoreumcoind.pid \
+          -conf=/etc/ecoreumcoin/ecoreumcoin.conf -datadir=/var/lib/ecoreumcoind
+
+ExecStop=-/usr/bin/ecoreumcoin-cli -conf=/etc/ecoreumcoin/ecoreumcoin.conf \
+         -datadir=/var/lib/ecoreumcoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,26 @@
+# /etc/conf.d/ecoreumcoind: config file for /etc/init.d/ecoreumcoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/ecoreumcoin/ecoreumcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/ecoreumcoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/ecoreumcoind.pid"
+
+# Where to write ecoreumcoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/ecoreumcoind"
+
+# User and group to own ecoreumcoind process
+#BITCOIND_USER="ecoreumcoin"
+#BITCOIND_GROUP="ecoreumcoin"
+
+# Path to ecoreumcoind executable
+#BITCOIND_BIN="/usr/bin/ecoreumcoind"
+
+# Nice value to run ecoreumcoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
